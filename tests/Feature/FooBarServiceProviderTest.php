@@ -26,5 +26,3 @@ class FooBarServiceProviderTest extends TestCase
         self::assertSame($foo2, $bar2->foo);
     }
 }
-
-// ini adalah bagian dari provider yang dapat kita jalankan jika kita sudah membuat objek baru dari sebuah kelas test unit
